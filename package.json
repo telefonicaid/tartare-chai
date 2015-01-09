@@ -33,5 +33,9 @@
     "libxmljs": "0.12.0",
     "tartare-util": "file:../tartare-util",
     "underscore": "1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.11.0",
+    "jscs": "^1.9.0"
   }
 }

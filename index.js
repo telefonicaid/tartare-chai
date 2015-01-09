@@ -27,5 +27,5 @@ module.exports = function(chai) {
 
   chai.use(require('chai-json-schema'));
   chai.use(require('./lib/http'));
-  chai.use(require('./lib/unica-api'))
+  chai.use(require('./lib/unica-api'));
 };
