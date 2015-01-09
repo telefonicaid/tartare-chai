@@ -1,0 +1,30 @@
+{
+  "name": "tartare-chai",
+  "version": "0.4.0",
+  "description": "A set of Chai plugins to help writing acceptance tests",
+  "license": "Apache-2.0",
+  "author": "Jose Antonio Rodríguez Fernández <joseantonio.rodriguezfernandez@telefonica.com>",
+  "main": "./index",
+  "scripts": {
+    "lint": "./node_modules/.bin/jscs index.js lib && ./node_modules/.bin/eslint index.js lib",
+    "prepublish": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telefonicaid/tartare-chai.git"
+  },
+  "bugs": "https://github.com/telefonicaid/tartare-chai/issues",
+  "engines": {
+    "node": ">=0.10",
+    "npm": ">=1.4.0"
+  },
+  "keywords": [
+    "testing",
+    "QA",
+    "acceptance",
+    "chai",
+    "assertions",
+    "HTTP",
+    "Unica"
+  ]
+}
