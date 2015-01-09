@@ -26,5 +26,12 @@
     "assertions",
     "HTTP",
     "Unica"
-  ]
+  ],
+  "dependencies": {
+    "buffertools": "2.1.2",
+    "chai-json-schema": "1.1.0",
+    "libxmljs": "0.12.0",
+    "tartare-util": "file:../tartare-util",
+    "underscore": "1.7.0"
+  }
 }
