@@ -1,12 +1,12 @@
 {
   "name": "tartare-chai",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A set of Chai plugins to help writing acceptance tests",
   "license": "Apache-2.0",
   "author": "Jose Antonio Rodríguez Fernández <joseantonio.rodriguezfernandez@telefonica.com>",
   "main": "./index",
   "scripts": {
-    "lint": "./node_modules/.bin/jscs index.js lib && ./node_modules/.bin/eslint index.js lib",
+    "lint": "jscs index.js lib && eslint index.js lib",
     "prepublish": "npm run lint"
   },
   "repository": {
@@ -31,7 +31,7 @@
     "buffertools": "2.1.2",
     "chai-json-schema": "1.1.0",
     "libxmljs": "0.12.0",
-    "tartare-util": "file:../tartare-util",
+    "tartare-util": "0.4.0",
     "underscore": "1.7.0"
   },
   "devDependencies": {
