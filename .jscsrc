@@ -2,7 +2,7 @@
   "preset": "google",
   "maximumLineLength": 120,
   "disallowSpacesInCallExpression": true,
-  "validateJSDoc": null,
+  "jsDoc": null,
   "disallowMultipleVarDecl": null,
   "requireSpacesInNamedFunctionExpression": {
     "beforeOpeningCurlyBrace": true
