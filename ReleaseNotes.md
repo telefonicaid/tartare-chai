@@ -1,7 +1,7 @@
 # RELEASE NOTES
 
-## v0.6.0 / XXX
-
+## v0.5.1 / 21 Sep 2015
+* Update dependencies to avoid errors related to libxmljs compilation.
 
 ## v0.5.0 / 11 Jan 2015
 * `tartare-chai` is born as an independent package. Previously its functionality was in the `tartare` package.
