@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "buffertools": "^2.1.4",
-    "chai3-json-schema": "^1.2.1",
+    "is-my-json-valid": "^2.13.1",
     "libxmljs": "^0.18.0",
     "lodash": "^4.14.0",
     "tartare-util": "^1.0.0"
