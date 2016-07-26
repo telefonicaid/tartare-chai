@@ -1,6 +1,6 @@
 /*
 
- Copyright 2015 Telefonica Investigación y Desarrollo, S.A.U
+ Copyright 2015-2016 Telefonica Investigación y Desarrollo, S.A.U
 
  This file is part of Tartare.
 
@@ -25,7 +25,7 @@ module.exports = function(chai) {
   // Force Chai to show stack traces upon an AssertionError
   chai.config.includeStack = true;
 
-  chai.use(require('chai-json-schema'));
+  chai.use(require('chai3-json-schema'));
   chai.use(require('./lib/http'));
   chai.use(require('./lib/unica-api'));
 };
