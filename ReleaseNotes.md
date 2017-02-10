@@ -1,5 +1,8 @@
 # RELEASE NOTES
 
+## v0.6.0 / 10 Feb 2017
+* Make libxmljs an optional dependency only needed if it is going to be used (xml-related assertions)
+
 ## v0.5.1 / 21 Sep 2015
 * Update dependencies to avoid errors related to libxmljs compilation.
 
